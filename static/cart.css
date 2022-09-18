@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+body{
+    font-size:1rem;
+}
+
+
+header{
+    margin:auto;
+    font-family:Roboto Mono;
+    font-size:2rem;
+    color:white;
+    background:rgb(39, 39, 155);
+    height:100%;
+    padding-top:-30px;
+}
+strong{
+    font-size:3rem;
+}
+h4{
+
+    text-align: center;
+}
+
+nav{
+    margin:0;
+    text-align: center;
+    border-radius: 2px;
+    padding-top:20px;
+    display:flex;
+    box-shadow: 3px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position:relative;
+}
+
+nav ul li::after{
+    content:"";
+    background:red;
+    width:0%;
+    height:2px;
+    display:block;
+    margin:auto;
+    transition: 1s;
+   
+
+}
+
+nav ul li:hover::after{
+    width:50%;
+ 
+}
+.nav:hover{
+    color:red;
+}
+nav .nav{
+width:200px;
+color:grey;
+text-decoration:none;
+font-size:15px ;
+text-transform: uppercase;
+}
+
+.nav{
+    width:200px;
+    color:black;
+    text-decoration:none;
+    transition: all 2s;
+    position:relative;
+}
+
+
+.logo{
+    height:35px;
+    width:50px;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+
+#main{
+    border-bottom:2px solid red;
+    width:100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow:  0 5px 5px black;
+
+}
+
+.socials{
+    display:flex;
+    width:15%;
+}
+footer{
+    background-color:grey;
+    font-size:1.5rem;
+    box-shadow: 0 10px 20px black;
+    position:absolute;
+    width:100%;
+}
